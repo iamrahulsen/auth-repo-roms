@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-northeast-1:860061945305:task-definition/orderManagement-TF-936099:8"
+        TaskDefinition: "arn:aws:ecs:ap-northeast-1:860061945305:task-definition/authtf:1"
         LoadBalancerInfo:
           ContainerName: "auth"
           ContainerPort: "9001"
